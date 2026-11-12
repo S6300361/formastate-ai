@@ -27,7 +27,7 @@ const STATE_NAMES = {
 };
 
 export default function FormaStateApp() {
-  const [apiUrl] = useState('http://127.0.0.1:8080');
+  const [apiUrl] = useState('https://formastate-ai.onrender.com');
   const [simulationMode, setSimulationMode] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
